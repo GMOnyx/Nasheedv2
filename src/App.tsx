@@ -1,10 +1,10 @@
 import React from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Play, Headphones, Music, Download, Heart, Users } from 'lucide-react';
 
 function App() {
   return (
-    <>
+    <HelmetProvider>
       {/* Helmet for SEO, tab title, and favicon */}
       <Helmet>
         <title>Nasheed - Listen Without Distractions</title>
@@ -66,7 +66,7 @@ function App() {
           </div>
         </section>
       </div>
-    </>
+    </HelmetProvider>
   );
 }
 
