@@ -1,6 +1,7 @@
 import React from 'react';
 import { Play, Headphones, Music, Download, Heart, Users } from 'lucide-react';
 
+ return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white">
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-4">
