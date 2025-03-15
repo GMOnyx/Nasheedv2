@@ -1,5 +1,26 @@
 import React from 'react';
 import { Play, Headphones, Music, Download, Heart, Users } from 'lucide-react';
+import { Helmet } from "react-helmet";
+
+function App() {
+    return (
+        <>
+            {/* Helmet manages the page title and metadata */}
+            <Helmet>
+                <title>Nasheed</title>
+                <meta name="description" content="Enjoy pure nasheeds with no ads or distractions." />
+                <link rel="icon" href="/favicon.ico" />
+            </Helmet>
+
+            {/* Your main app content */}
+            <div>
+                <h1>Nasheed</h1>
+            </div>
+        </>
+    );
+}
+
+export default App;
 
 function App() {
   return (
