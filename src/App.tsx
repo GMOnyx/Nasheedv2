@@ -1,10 +1,10 @@
 import React from 'react';
 import { Play, Headphones, Music, Download, Heart, Users } from 'lucide-react';
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async'; // Updated import
 
 function App() {
   return (
-    <>
+    <HelmetProvider> {/* Wrap the entire app in HelmetProvider */}
       {/* Helmet manages the page title and metadata */}
       <Helmet>
         <title>Nasheed - Listen Without Distractions</title>
@@ -58,10 +58,10 @@ function App() {
                   <Play size={20} className="mr-2" />
                   Register for beta
                 </a>
-               <a href="mailto:Abdarrahman2345@gmail.com" 
-                     className="flex items-center justify-center bg-white text-emerald-600 border border-emerald-600 px-8 py-3 rounded-full hover:bg-emerald-50 transition-colors">
-                    Talk to the Founders
-                  </a>
+                <a href="mailto:Abdarrahman2345@gmail.com" 
+                   className="flex items-center justify-center bg-white text-emerald-600 border border-emerald-600 px-8 py-3 rounded-full hover:bg-emerald-50 transition-colors">
+                  Talk to the Founders
+                </a>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
@@ -302,7 +302,7 @@ function App() {
           </div>
         </footer>
       </div>
-    </>
+    </HelmetProvider>
   );
 }
 
