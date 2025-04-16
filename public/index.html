@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- REQUIRED META TAGS -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <!-- PRIMARY TAGS -->
+  <!-- PRIMARY META TAGS -->
   <title>Nasheed - Islamic Vocal Harmonies</title>
-  <meta name="description" content="Enjoy pure nasheeds with no musical instruments">
+  <meta name="description" content="Pure vocal nasheeds without musical instruments">
 
-  <!-- OPEN GRAPH (NON-NEGOTIABLE) -->
+  <!-- OPEN GRAPH (ESSENTIAL) -->
   <meta property="og:title" content="Nasheed - Islamic Vocal Harmonies">
-  <meta property="og:description" content="Enjoy pure nasheeds with no musical instruments">
+  <meta property="og:description" content="Pure vocal nasheeds without musical instruments">
   <meta property="og:image" content="https://nashed.app/og-image.jpg">
   <meta property="og:url" content="https://nashed.app">
   <meta property="og:type" content="website">
-  
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   <!-- TWITTER CARD -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Nasheed - Islamic Vocal Harmonies">
+  <meta name="twitter:description" content="Pure vocal nasheeds without musical instruments">
   <meta name="twitter:image" content="https://nashed.app/og-image.jpg">
 
-  <!-- CRITICAL: MUST COME BEFORE VITE SCRIPT -->
-  <link rel="icon" href="/favicon.ico">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  
+  <!-- VITE'S REQUIRED PRELOAD (DON'T TOUCH) -->
+  <script type="module" crossorigin src="/assets/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor.js">
+  <link rel="stylesheet" href="/assets/index.css">
 </head>
 <body>
+  <!-- REACT ROOT (DON'T TOUCH) -->
   <div id="root"></div>
   
-  <!-- VITE SCRIPT (KEEP THIS LAST) -->
-  <script type="module" src="/src/main.tsx"></script>
+  <!-- FALLBACK FOR CRAWLERS -->
+  <noscript>
+    <h1>Nasheed - Islamic Vocal Harmonies</h1>
+    <p>Enable JavaScript to experience pure vocal nasheeds without musical instruments</p>
+    <img src="https://nashed.app/og-image.jpg" alt="Nasheed App Preview" width="1200" height="630">
+  </noscript>
 </body>
 </html>
