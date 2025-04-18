@@ -36,7 +36,7 @@ function App() {
               <a href="#testimonials" className="text-gray-700 hover:text-emerald-600 transition-colors">Build With Us</a>
             </div>
             <div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYVkKBokx2AeLtNCRhZxstPfpbqfZYln4zu5F2Z6WjfwYHmQ/viewform?usp=header" 
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdARnnpSpd9a2bBa0QKu1F9lF3lJMeQoIBJ7HpKWFwrtS9tVg/viewform?usp=dialog" 
                  className="bg-emerald-600 text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition-colors">
                 Get Started
               </a>
