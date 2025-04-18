@@ -57,7 +57,7 @@ function App() {
                 to interrupt your experience.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYVkKBokx2AeLtNCRhZxstPfpbqfZYln4zu5F2Z6WjfwYHmQ/viewform?usp=header" 
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdARnnpSpd9a2bBa0QKu1F9lF3lJMeQoIBJ7HpKWFwrtS9tVg/viewform?usp=dialog" 
                    className="flex items-center justify-center bg-emerald-600 text-white px-8 py-3 rounded-full hover:bg-emerald-700 transition-colors">
                   <Play size={20} className="mr-2" />
                   Try the web player
